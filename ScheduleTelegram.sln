@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleTelegram.Bot", "Sch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleTelegram.Parsing", "ScheduleTelegram.Parsing\ScheduleTelegram.Parsing.csproj", "{F8C250F1-DFBE-4C6D-9E7F-407BAA5E8E13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScheduleTelegram.Common", "ScheduleTelegram.Common\ScheduleTelegram.Common.csproj", "{4F500156-E4E8-4549-9682-70F1D81A3845}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F8C250F1-DFBE-4C6D-9E7F-407BAA5E8E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8C250F1-DFBE-4C6D-9E7F-407BAA5E8E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8C250F1-DFBE-4C6D-9E7F-407BAA5E8E13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F500156-E4E8-4549-9682-70F1D81A3845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F500156-E4E8-4549-9682-70F1D81A3845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F500156-E4E8-4549-9682-70F1D81A3845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F500156-E4E8-4549-9682-70F1D81A3845}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

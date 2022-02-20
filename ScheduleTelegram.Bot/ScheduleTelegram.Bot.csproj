@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ScheduleTelegram.Common\ScheduleTelegram.Common.csproj" />
     <ProjectReference Include="..\ScheduleTelegram.Parsing\ScheduleTelegram.Parsing.csproj" />
   </ItemGroup>
 

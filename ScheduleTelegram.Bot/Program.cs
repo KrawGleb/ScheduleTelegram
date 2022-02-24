@@ -32,6 +32,8 @@ static void RegisterServices(IServiceCollection services)
     services.AddScoped<ICallbackQueryHandler, CallbackQueryHandler>();
 
     services.AddScoped<IIcePalaceSchedule, IcePalaceSchedule>();
+    services.AddScoped<IDramaTheatreSchedule, DramaTheatreSchedule>();
+    services.AddScoped<ICinemaSchedule, CinemaSchedule>();
 }
 
 static void StartPooling(IServiceProvider services)

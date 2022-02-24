@@ -11,13 +11,20 @@ public class CallbackQueryHandler : ICallbackQueryHandler
 {
     private readonly ILogger _logger;
     private readonly IIcePalaceSchedule _icePalaceSchedule;
+    private readonly IDramaTheatreSchedule _dramaTheatreSchedule;
+    private readonly ICinemaSchedule _cinemaSchedule;
+
 
     public CallbackQueryHandler(
         ILogger<CallbackQueryHandler> logger,
-        IIcePalaceSchedule icePalaceSchedule)
+        IIcePalaceSchedule icePalaceSchedule,
+        IDramaTheatreSchedule dramaTheatreSchedule,
+        ICinemaSchedule cinemaSchedule)
     {
         _logger = logger;
         _icePalaceSchedule = icePalaceSchedule;
+        _dramaTheatreSchedule = dramaTheatreSchedule;
+        _cinemaSchedule = cinemaSchedule;
     }
 
     public async Task HandleAsync(ITelegramBotClient botClient, Update update)

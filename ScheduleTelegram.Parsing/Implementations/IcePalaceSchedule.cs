@@ -11,7 +11,7 @@ namespace ScheduleTelegram.Parsing.Implementations;
 public class IcePalaceSchedule : IIcePalaceSchedule
 {
     private const string _url = "http://www.brest-hockey.by/";
-    private readonly ILogger<IcePalaceSchedule> _logger;
+    private readonly ILogger _logger;
     private readonly IHtmlDownloader _htmlDownloader;
 
     public IcePalaceSchedule(
